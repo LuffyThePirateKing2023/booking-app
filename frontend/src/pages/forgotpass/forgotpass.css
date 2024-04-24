@@ -1,0 +1,55 @@
+.forgot-pass{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.forgot-content{
+    position: relative;
+}
+.forgot-pass img{
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    filter: blur(10px);
+  }
+.forgot-subtitle{
+    text-align: start;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: -15px;
+}
+.forgot-form .title{
+    font-size: 20px;
+}
+.reset-form .title{
+    font-size: 17px;
+    font-weight: 500;
+}
+.forgot-form input{
+    height: 30px;
+    border: 1px solid rgba(115, 112, 115, 0.464);
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+}
+.forgot-form  button{
+    outline: none;
+}
+button:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+.forLogin{
+    position: absolute;
+    top:5px;
+    right:7px;
+    color: #000;
+}
+.message{
+    color: #d30e0e;
+    font-size: 14px;
+    font-weight: 500;
+}

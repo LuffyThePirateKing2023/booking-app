@@ -1,0 +1,70 @@
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }  
+  .login img{
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    filter: blur(10px);
+  }
+  button:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+  .close{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    color: #0b0b0b;
+  }
+  .form-login{
+    height: 547.2px;
+    width: 450px;
+  }
+  .login-form-section{
+    margin-top: 50px;
+  }
+  .password-content{
+    position: relative;
+  }
+  .showpass{
+    position: absolute;
+    top: 40%;
+    left: 85%;
+    cursor: pointer;
+  }
+  .rememberMe{
+    padding-left: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+  }
+  .rememberMe label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .rememberMe p{
+    font-weight: 600;
+  }
+  .errorMessage{
+    position:absolute;
+    width: 100%;
+    top: 95%;
+    left: 0;
+    color: #e70b0b;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+  }

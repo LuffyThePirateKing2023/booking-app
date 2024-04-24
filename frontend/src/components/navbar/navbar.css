@@ -1,0 +1,155 @@
+.navbar{
+  height: 50px;
+  background-color: #003580;
+  padding: 20px 0 ;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.liLogo{
+  color: #fafafa;
+  text-decoration: none;
+}
+.navlogo{
+  font-weight: 500;
+}
+
+.navButton{
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}
+.profilePic{
+  display: flex;
+  gap: 30px;
+  height: 100%;
+  margin-right: -200px;
+  padding:  0 5px;
+}
+.defprofilePic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.imgcontent{
+  height: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+.imgcontent img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.nameContent{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2px;
+}
+.nameContent .username{
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+}
+.nameContent p{
+  font-size: 12px;
+}
+.navBtn{
+background: none;
+}
+.liLogo:hover, .navButton:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in;
+}
+.settinginfo{
+  position: absolute;
+  top: 70px;
+  right: 0;
+  z-index: 1111;
+  display: none;
+}
+.show{
+  display: block;
+}
+.settinginfo ul{
+  color: #fafafa;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.settinginfo ul li{
+  width: 100%;
+  transform: translateX(-40px);
+  padding: 10px;
+  height: 25px;
+  width: 150px;
+  font-size: 14px;
+  background-color: #716c6c6c;
+  border: 1px solid #4b4a4a34;
+  cursor: pointer;
+}
+.settinginfo ul li:hover{
+  background-color: #716c6c;
+}
+.logoutbtn{
+  width: 280px;
+  height: 150px;
+  position: absolute;
+  top: 40%;
+  left: 44%;
+  z-index: 999;
+  background-color: #fafafa;
+  display: none;
+  backdrop-filter: blur(10px);
+  animation: transform 0.4s ease-out;
+}
+.logoutbtn-container p{
+  font-weight: 500;
+  font-weight: 16px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.logoutbtn-container .btnlogout{
+  background-color: #716c6c75;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.btnlogout button{
+  width: 100px;
+  outline: none;
+  cursor: pointer;
+}
+.btnlogout button:hover{
+  border-color: #0772bf;
+}
+@keyframes transform {
+  from{
+    transform: scale(0.1);
+  }
+  to{
+    transform: scale(1);
+  }
+}

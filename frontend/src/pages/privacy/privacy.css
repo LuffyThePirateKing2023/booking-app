@@ -1,0 +1,21 @@
+.privacy-container{
+    padding: 50px 20px;
+}
+.privacy-container h1{
+    font-size: 25px;
+    width: 100%;
+    margin: 20px auto;
+}
+.privacy-container p{
+    margin: 10px 0;
+    font-weight: 500;
+}
+.privacy-container span{
+    margin-top: 30px;
+    cursor: pointer;
+    border: 1px solid;
+    padding: 2px 7px;
+    color: #fafafa;
+    background-color: #003580;
+}
+
